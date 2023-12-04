@@ -1,0 +1,19 @@
+#include<iostream>
+#include<stack>
+using namespace std;
+int main(){
+    stack<string> s;
+    
+    s.push("kulshreshtha");
+    s.push("kunal");
+    s.push("bunty");
+    
+    cout<<"TOP ELEMENT-> "<<s.top()<<endl;
+    s.pop();
+    cout<<"TOP ELEMENT-> "<<s.top()<<endl;
+    cout<<"size of stack-> "<<s.size()<<endl;
+    
+    cout<<"Empty or not "<<s.empty()<<endl;
+    
+    
+}
